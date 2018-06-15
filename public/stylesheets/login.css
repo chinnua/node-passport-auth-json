@@ -12,12 +12,15 @@
 
 body {
   /*Youtube*/
-  background: #e52d27;
-  /* fallback for old browsers */
+  /* background: #e52d27;
   background: -webkit-linear-gradient(to left, #b31217, #e52d27);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #b31217, #e52d27);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #b31217, #e52d27); */
+
+  /*Playing with reds*/
+  background: #D31027;
+  background: -webkit-linear-gradient(to left, #EA384D, #D31027);
+  background: linear-gradient(to left, #EA384D, #D31027);
+  
   font-family: 'Inter UI', sans-serif;
   margin: 0;
   padding: 20px;
