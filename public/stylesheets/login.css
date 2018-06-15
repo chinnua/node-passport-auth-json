@@ -20,11 +20,9 @@ body {
   background: #D31027;
   background: -webkit-linear-gradient(to left, #EA384D, #D31027);
   background: linear-gradient(to left, #EA384D, #D31027);
-  
-  font-family: 'Inter UI', sans-serif;
   margin: 0;
   padding: 20px;
-  font-family: 'Roboto';
+  font-family: 'Google Sans';
 }
 
 .page {
