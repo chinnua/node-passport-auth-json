@@ -8,6 +8,7 @@ router.get('/', function (req, res, next) {
     res.redirect('user/home', 302);
   } else {
     res.render('index', {
+      layout: false,
       Error: req.flash('error')
     });
   }

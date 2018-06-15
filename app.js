@@ -7,6 +7,7 @@ var flash = require('connect-flash');
 var session = require('express-session');
 var auth = require('./auth.js');
 var bodyParser = require('body-parser');
+var expressLayouts = require('express-ejs-layouts');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -16,6 +17,7 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.use(expressLayouts);
 
 app.use(logger('dev'));
 app.use(express.json());

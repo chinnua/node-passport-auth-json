@@ -13,6 +13,7 @@
     "debug": "~2.6.9",
     "ejs": "^2.6.1",
     "express": "~4.16.0",
+    "express-ejs-layouts": "^2.4.0",
     "express-session": "^1.10.3",
     "http-errors": "~1.6.2",
     "lodash": "^4.17.10",
