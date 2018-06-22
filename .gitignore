@@ -65,3 +65,10 @@ typings/
 
 # Serverless directories
 .serverless
+
+
+# upload directories
+uploads
+
+#vscode prefs
+.vscode
